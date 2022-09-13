@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Capacidad de Endeudamiento</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  </style>
+  <body>
+    <header>
+      <nav>
+        <div class="nav-right">
+          <img src="img/hucha.png" alt="" class="logo" />
+          <h1>CAPACIDAD DE ENDEUDAMIENTO</h1>
+        </div>
+        <div class="nav-left">
+          <p>Jefferson Valencia Yataco</p>
+        </div>
+      </nav>
+    </header>
+    
+    <div class="container">
+      <section class="container-info">
+        <p class="title">¿Que es la capacidad de Endeudamiento?</p>
+        <div class="info">
+          <img src="img/pexels-yan-krukov-7698916.jpg" alt="" />
+          <p>
+            La capacidad de endeudamiento es el cálculo del porcentaje de
+            nuestros ingresos que podemos destinar para pagar las cuotas de un
+            préstamo o hipoteca. En otras palabras, es la capacidad máxima de
+            endeudamiento que una persona puede asumir sin poner en riesgo su
+            posición económica.
+          </p>
+        </div>
+      </section>
+      <section class="container-form">
+        <form action="" class="form-container" id="form">
+          <label for="salarioIngresos"
+            >Ingrese su Ingreso</label
+          >
+          <input type="number" id="salarioIngresos" />
+
+          <label for="salarioDeudas">Ingrese el total de deudas y obligaciones</label>
+          <input type="number" id="salarioDeudas" />
+
+          <input type="submit" id="btn-calcular" class="btn btn-succes" />
+        </form>
+        <div class="table">
+          <table id="endeudamiento_table">
+            <thead>
+              <tr>
+                <th>Ingreso Economico</th>
+                <th>Deudas y Obligaciones</th>
+                <th>Capacidad de Endeudamiento</th>
+              </tr>
+            </thead>
+            <tbody>
+  
+            </tbody>
+          </table>
+          <p class="error inactive">No existe los valores</p>
+        </div>
+      </section>
+    </div>
+  </body>
+  <script src="main.js"></script>
+</html>
